@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (o.y < 0 || o.y > h) o.vy *= -1;
         ctx.beginPath();
         ctx.arc(o.x, o.y, o.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(216,188,128,${o.a})`;
+        ctx.fillStyle = `rgba(201,29,54,${o.a})`;
         ctx.fill();
       });
       if (!prefersReduced) requestAnimationFrame(draw);
